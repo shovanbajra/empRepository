@@ -78,7 +78,10 @@ public class EmpOperationsController {
 		
 		return employeeServices.showAllEmpDesignation(empDesignation);
 		}
-	
+	@GetMapping("/test")
+	public String sayHello(){
+		return "gitResponse Method";
+	}
 	}
 
 
